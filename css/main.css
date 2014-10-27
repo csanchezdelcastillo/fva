@@ -96,6 +96,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#Barra_navegador{
+display: inline;
+}
+
+.nav{
+    text-shadow: 6px 12px 4px rgba(208, 150, 150, 1);
+	display: inline;
+	position: relative;
+}
 
 
 
@@ -143,7 +152,6 @@ textarea {
 .hidden {
     display: none !important;
     visibility: hidden;
-}
 
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
