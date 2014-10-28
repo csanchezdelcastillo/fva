@@ -96,17 +96,34 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#Barra_navegador{
-display: inline;
+
+ul#menu{
+text-align: center;
+list-style-type: none;
+text-transform: uppercase;
 }
-
-.nav{
-    text-shadow: 6px 12px 4px rgba(208, 150, 150, 1);
-	display: inline;
-	position: relative;
+ul#menu li {
+    display: inline;
+    margin: 0 1ex 0 1ex;
 }
-
-
+ul#menu a{
+    color: #AAA;
+    text-decoration: none;
+    padding: 0.3ex 1ex 0.3ex 1ex;
+}
+ul#menu a:hover {
+    background-image: url('../img/fondo_boton.png');
+}
+#showfront {
+    float: center;
+    margin-top:36px;
+    margin-left:230px;
+    
+    width: 900px;
+    height: 370px;
+    z-index: 2;
+    position: absolute;
+}
 
 
 
