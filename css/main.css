@@ -116,13 +116,42 @@ ul#menu a:hover {
 }
 #showfront {
     float: center;
-    margin-top:36px;
+    margin-top:10px;
     margin-left:230px;
     
-    width: 900px;
+    width: 750px;
     height: 370px;
-    z-index: 2;
     position: absolute;
+}
+#showfront h1{
+    float:center;
+    margin-top:400px;
+    margin-left:300px;
+}
+#showfront p{
+    float: center;
+   margin-top:10px;
+  margin-left:230px; 
+    font-size: 14px;	
+    color: #222;
+    text-aling: justify;
+
+}
+#content{
+    float:center;
+    margin-top:530px;
+    margin-left:460px;
+    
+    position: absolute;
+}
+#content h2{
+    float:center;
+    color: #333;
+}
+#content a{
+    float:center;
+    color: #444;
+    
 }
 
 
